@@ -9,8 +9,16 @@ public class mExRecursiveFibonacci {
                         .toArray();
         int prev = -1;
         int len = 1;
+        int index = -1;
         for (int i = 0; i < inputArr.length; i++) {
+            int currentElement = inputArr[i];
+            
+            if (inputArr[i+1]>inputArr[i]){
+                len ++;
+                prev = i;
+            }else {
 
+            }
 
         }
     }

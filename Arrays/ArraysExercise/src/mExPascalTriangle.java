@@ -11,13 +11,13 @@ public class mExPascalTriangle {
             System.out.println(elementArr[1] +" ");
 
             for (int i = 1; i < number; i++) {
-              int[] nextArr = new int[elementArr.length+i];
+              int[] nextArr = new int[elementArr.length+1];
                 nextArr[0] = 0;
-                nextArr[elementArr.length+i-1] = 0;
+                nextArr[elementArr.length] = 0;
                 for (int j = 1; j < nextArr.length-1 ; j++) {
                     nextArr[j] = elementArr[j-1]+elementArr[j];
                 }
-                for (int k = 1; k < nextArr.length-1; i++) {
+                for (int k = 1; k < nextArr.length-1; k++) {
                     System.out.print(nextArr[k] +" ");
                 }
                 System.out.println();
