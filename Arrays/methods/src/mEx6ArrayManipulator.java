@@ -30,13 +30,38 @@ public class mEx6ArrayManipulator {
             case "max":
                 String type = commandline[1];
                 if ("even".equals(type)){
-                    System.out.println(maxEven(numbers));
+                    int maxEven = maxEven(numbers);
+                    if (maxEven >-1){
+                        System.out.println(maxEven);
+                    }else {
+                        System.out.println("Invalid index");
+                    }
                 }else if("odd".equals(type)){
-                    System.out.println(maxOdd(numbers));
+                    int maxOdd  = maxOdd(numbers);
+                    if (maxOdd >-1){
+                        System.out.println(maxOdd);
+                    }else {
+                        System.out.println("Invalid index");
+                    }
                 }
                 break;
             case "min":
-
+                String typeMin = commandline[1];
+                if ("even".equals(typeMin)){
+                    int minEven = minEven(numbers);
+                    if (minEven >-1){
+                        System.out.println(minEven);
+                    }else {
+                        System.out.println("Invalid index");
+                    }
+                }else if("odd".equals(typeMin)){
+                    int minOdd  = minOdd(numbers);
+                    if (minOdd >-1){
+                        System.out.println(minOdd);
+                    }else {
+                        System.out.println("Invalid index");
+                    }
+                }
                 break;
             case "first":
 
@@ -82,21 +107,33 @@ public class mEx6ArrayManipulator {
         return maxIndex;
     }
 
-
-//    public static int maxOdd (int[] numbers){
-//        int minnum = Integer.MAX_VALUE;
-//        int minIndex = -1;
-//        for (int i = 0; i < numbers.length; i++) {
-//            int current = numbers[1];
-//            if (current % 2 == 0) {
-//                if (current >= minnum) {
-//                    minnum = current;
-//                    minIndex = i;
-//                }
-//            }
-//        }
-//        return minIndex;
- //   }
-
+    public static int minOdd (int[] numbers){
+        int minNum = Integer.MAX_VALUE;
+        int minIndex = -1;
+        for (int i = 0; i < numbers.length; i++) {
+            int current = numbers[i];
+            if (current % 2 != 0) {
+                if (current <= minNum) {
+                    minNum = current;
+                    minIndex = i;
+                }
+            }
+        }
+        return minIndex;
+    }
+    public static int minEven (int[] numbers){
+        int minNum = Integer.MAX_VALUE;
+        int minIndex = -1;
+        for (int i = 0; i < numbers.length; i++) {
+            int current = numbers[i];
+            if (current % 2 == 0) {
+                if (current <= minNum) {
+                    minNum = current;
+                    minIndex = i;
+                }
+            }
+        }
+        return minIndex;
+    }
 
 }
