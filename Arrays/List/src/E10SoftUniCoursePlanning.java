@@ -66,6 +66,7 @@ public class E10SoftUniCoursePlanning {
                     }
                     break;
             }
+
             commandLine = scanner.nextLine();
         }
             int num = 1;

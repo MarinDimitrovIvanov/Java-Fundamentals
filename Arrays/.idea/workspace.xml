@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f63b6f5a-e62a-424f-8aec-372e9d25accf" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/List/src/E10SoftUniCoursePlanning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E1Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E2ChangeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E3HouseParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E4ListOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E5BombNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E6CardGames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E7AppendArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E8AnonymousThreat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/E9Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/src/demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/src/P3MergingLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/src/P3MergingLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/src/P4ListManipulationBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/src/P4ListManipulationBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/src/P5ListManipulationAdvanced1.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/src/P5ListManipulationAdvanced1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/src/E10SoftUniCoursePlanning.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/src/E10SoftUniCoursePlanning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/src/demo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +95,26 @@
       <option name="presentableId" value="Default" />
       <updated>1676120934250</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1676614653447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676614653447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
