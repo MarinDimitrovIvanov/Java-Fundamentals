@@ -17,30 +17,25 @@ public class P3MergingLists {
         int count = Math.min(firstNumbers.size(), secondNumbers.size());
         List<Integer> mergedList = new ArrayList<>();
 
+        for (int i = 0; i < count; i++) {
+            mergedList.add(firstNumbers.get(i));
+            mergedList.add(secondNumbers.get(i));
+        }
+
         if ( firstNumbers.size() > secondNumbers.size()){
-            for (int i = 0; i < count; i++) {
-                mergedList.add(firstNumbers.get(i));
-                mergedList.add(secondNumbers.get(i));
-            }
             for (int i = count ; i <=  firstNumbers.size()-1; i++) {
                 mergedList.add(firstNumbers.get(i));
             }
+        }
 
-
-        }else {
-            if ( firstNumbers.size() < secondNumbers.size()) {
-                for (int i = 0; i < count; i++) {
-                    mergedList.add(secondNumbers.get(i));
-                    mergedList.add(firstNumbers.get(i));
-                }
+        if ( firstNumbers.size() < secondNumbers.size()) {
                 for (int i = count ; i <= secondNumbers.size() - 1; i++) {
                     mergedList.add(secondNumbers.get(i));
                 }
             }
-        }
 
-        for (int number:mergedList) {
-            System.out.print(number + " ");
-        }
+
+            System.out.println(mergedList.toString().replaceAll("[\\[\\],]","") );
+
     }
 }

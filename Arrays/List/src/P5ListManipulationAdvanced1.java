@@ -23,7 +23,7 @@ public class P5ListManipulationAdvanced1 {
                 } else if (evenOdd.equals("odd")) {
                     printOdd(numbers);
                 }
-            } else if (command.startsWith("get")) {
+            } else if (command.startsWith("Get")) {
                 printSum(numbers);
             } else if (command.startsWith("Filter")) {
                 String condition = command.split("\\s+")[1];

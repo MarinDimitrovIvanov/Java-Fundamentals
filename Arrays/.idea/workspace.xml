@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f63b6f5a-e62a-424f-8aec-372e9d25accf" name="Changes" comment="" />
+    <list default="true" id="f63b6f5a-e62a-424f-8aec-372e9d25accf" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/List/src/E10SoftUniCoursePlanning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E1Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E2ChangeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E3HouseParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E4ListOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E5BombNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E6CardGames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E7AppendArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E8AnonymousThreat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/E9Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/src/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/src/P3MergingLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/src/P3MergingLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/src/P4ListManipulationBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/src/P4ListManipulationBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/src/P5ListManipulationAdvanced1.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/src/P5ListManipulationAdvanced1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,45 +44,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/GitHub/Java-Fundamentals/Arrays",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Java-Fundamentals/Arrays&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.P7RemoveNegativesAndReverse">
-    <configuration name="P3MergingLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P3MergingLists" />
+}</component>
+  <component name="RunManager" selected="Application.E10SoftUniCoursePlanning">
+    <configuration name="E10SoftUniCoursePlanning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E10SoftUniCoursePlanning" />
       <module name="Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P4ListManipulationBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P4ListManipulationBasics" />
+    <configuration name="E7AppendArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E7AppendArrays" />
       <module name="Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5ListManipulationAdvanced1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P5ListManipulationAdvanced1" />
+    <configuration name="E8AnonymousThreat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E8AnonymousThreat" />
       <module name="Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P6ListOfProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P6ListOfProduct" />
+    <configuration name="E9Pokemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E9Pokemon" />
       <module name="Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P7RemoveNegativesAndReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P7RemoveNegativesAndReverse" />
+    <configuration name="rrrrrrr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rrrrrrr" />
       <module name="Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P7RemoveNegativesAndReverse" />
-        <item itemvalue="Application.P6ListOfProduct" />
-        <item itemvalue="Application.P5ListManipulationAdvanced1" />
-        <item itemvalue="Application.P4ListManipulationBasics" />
-        <item itemvalue="Application.P3MergingLists" />
+        <item itemvalue="Application.E10SoftUniCoursePlanning" />
+        <item itemvalue="Application.E9Pokemon" />
+        <item itemvalue="Application.rrrrrrr" />
+        <item itemvalue="Application.E8AnonymousThreat" />
+        <item itemvalue="Application.E7AppendArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -92,6 +108,10 @@
       <updated>1676120934250</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -108,7 +128,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/List/src/P3MergingLists.java</url>
-          <line>45</line>
+          <line>40</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -117,10 +137,54 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/List/src/P5ListManipulationAdvanced1.java</url>
+          <url>file://$PROJECT_DIR$/List/src/E2ChangeList.java</url>
           <line>14</line>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/List/src/E3HouseParty.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/List/src/E5BombNumbers.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/List/src/E6CardGames.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/List/src/E7AppendArrays.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/List/src/E8AnonymousThreat.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/List/src/E8AnonymousThreat.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/List/src/E9Pokemon.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/List/src/E10SoftUniCoursePlanning.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="17" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

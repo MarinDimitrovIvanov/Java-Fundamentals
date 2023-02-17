@@ -15,10 +15,10 @@ public class P4ListManipulationBasics {
             if (command.contains("Add")){
              int numberToAdd = Integer.parseInt(command.split(" ")[1]);
                 numbers.add(numberToAdd);
-            } else if (command.contains("Remove")) {
+            } else if (command.split("\\s+")[0].equals("Remove")) {
                 int numberToRemove = Integer.parseInt(command.split(" ")[1]);
                 numbers.remove(Integer.valueOf(numberToRemove));
-            } else if (command.contains("RemoveAt")) {
+            } else if (command.split("\\s+")[0].equals("RemoveAt")) {
                 int index = Integer.parseInt(command.split(" ")[1]);
                 numbers.remove(index);
             } else if (command.contains("Insert")) {
