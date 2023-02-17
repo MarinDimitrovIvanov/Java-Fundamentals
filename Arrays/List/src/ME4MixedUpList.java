@@ -38,8 +38,5 @@ public class ME4MixedUpList {
         for (int num: output) {
             System.out.print(num + " ");
         }
-
-
-
     }
 }
