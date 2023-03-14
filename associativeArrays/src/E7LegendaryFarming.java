@@ -7,8 +7,8 @@ public class E7LegendaryFarming {
     public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
 
-         Map<String, Integer> materialMap = new LinkedHashMap<>();
-         materialMap.put("shards", 0);
+        Map<String, Integer> materialMap = new LinkedHashMap<>();
+        materialMap.put("shards", 0);
         materialMap.put("fragments", 0);
         materialMap.put("motes", 0);
 
